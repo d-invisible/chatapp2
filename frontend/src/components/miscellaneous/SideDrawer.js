@@ -31,6 +31,7 @@ import { Effect } from "react-notification-badge";
 import { getSender } from "../../config/ChatLogics";
 import UserListItem from "../userAvatar/UserListItem";
 import { ChatState } from "../../Context/ChatProvider";
+import { Image } from '@chakra-ui/react';
 
 function SideDrawer() {
   const [search, setSearch] = useState("");
@@ -141,9 +142,15 @@ function SideDrawer() {
             </Text>
           </Button>
         </Tooltip>
-        <Text fontSize="2xl" fontFamily="Work sans">
-          Talk-A-Tive
-        </Text>
+        // <Text fontSize="2xl" fontFamily="Work sans">
+        //   Talk-A-Tive
+        // </Text>
+        <Image
+        src="./Vahni_small.png" // Replace with your actual logo path
+        alt="Logo"
+        boxSize={{ base: "40px", md: "50px" }} // Adjust the size as per your design needs
+        objectFit="contain"
+        />
         <div>
           <Menu>
             <MenuButton p={1}>
