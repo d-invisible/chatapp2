@@ -142,12 +142,12 @@ function SideDrawer() {
             </Text>
           </Button>
         </Tooltip>
-        // <Text fontSize="2xl" fontFamily="Work sans">
-        //   Vahni
-        // </Text>
-        <Text fontSize="2xl" fontFamily="Work sans" fontWeight="bold" color="purple.500">
-            Vahni
+  
+        <Text fontSize="2xl" fontFamily="Work sans" as='b'>
+          Vahni
         </Text>
+  
+        
 
         // <Image
         // src="./Vahni_small.png" // Replace with your actual logo path
@@ -155,6 +155,7 @@ function SideDrawer() {
         // boxSize={{ base: "40px", md: "50px" }} // Adjust the size as per your design needs
         // objectFit="contain"
         // />
+  
         <div>
           <Menu>
             <MenuButton p={1}>
