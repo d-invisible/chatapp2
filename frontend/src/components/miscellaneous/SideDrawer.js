@@ -148,13 +148,6 @@ function SideDrawer() {
         </Text>
   
         
-
-        // <Image
-        // src="./Vahni_small.png" // Replace with your actual logo path
-        // alt="Logo"
-        // boxSize={{ base: "40px", md: "50px" }} // Adjust the size as per your design needs
-        // objectFit="contain"
-        // />
   
         <div>
           <Menu>
