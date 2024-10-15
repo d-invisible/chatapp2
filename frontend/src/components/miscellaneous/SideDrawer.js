@@ -207,11 +207,11 @@ function SideDrawer() {
             {loading ? (
               <ChatLoading />
             ) : (
-              searchResult?.map((user) => (
+              searchResult?.map((result) => (
                 <UserListItem
-                  key={user._id}
-                  user={user}
-                  handleFunction={() => accessChat(user._id)}
+                  key={result._id}
+                  user={result}
+                  handleFunction={() => accessChat(result._id)}
                 />
               ))
             )}
