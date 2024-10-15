@@ -3,7 +3,8 @@
 .App {
   min-height: 100vh;
   display: flex;
-  background-image: url("./background.png");
+/*   background-image: url("./background.png"); */
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
   background-position: center;
   background-size: cover;
 }
